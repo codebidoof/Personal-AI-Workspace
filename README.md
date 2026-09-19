@@ -18,8 +18,8 @@ Personal-AI-Workspace/
 │
 ├── knowledge/
 │   ├── android/
-│   ├── ai/
-│   └── database/
+│   ├── flutter/
+│   └── react/
 │
 ├── wiki/
 │   ├── mistakes/
@@ -52,8 +52,8 @@ AI가 참고할 수 있도록 기술 및 학습 내용을 정리해 둔다.
 ```text
 knowledge/
 ├── android/
-├── ai/
-└── database/
+├── flutter/
+└── react/
 ```
 
 공식 문서나 여러 자료를 학습한 뒤, 나중에 다시 활용할 수 있는 형태로 정리한다.
