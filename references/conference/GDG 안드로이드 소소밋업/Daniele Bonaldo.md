@@ -1,5 +1,5 @@
 # 녹음본 원본
-
+[[Daniele 녹음 원본]]
 
 # 자기소개
 
@@ -9,8 +9,8 @@
 - **주요 개발 분야:** 소셜 네트워크, 자동차, 미디어 앱 등 다양한 프로젝트 수행
 - **출신지:** 이탈리아 밀라노
 - **대외 활동:** GDG(Google Developer Groups) 밀라노 운영진
-
 # 바이브 코더의 태동
+
 ![[바이브코더태동 1.png]]
 
 - 최근 몇 년간 생산성을 높이고 AI 도구가 업무에서 어떤 역할을 할 수 있는지 알아보기 위해 다양한 도구를 실험해 왔음
@@ -21,7 +21,7 @@
 
 # **제약 없는 AI = 아키텍처 상의 Slop**
 
-![[바이브코더태동 2.png]]
+![[바이브코더태동 1.png]]
 
 - 에이전트에게 **"나를 부자로 만들어 줄 안드로이드 앱을 만들어 줘. 물론 오류는 없어야 해."** 라고 요청한다고 해서 완벽하게 작동하는 앱을 받을 수 있는 것은 아님
 - 대부분의 경우 받게 되는 것은 **AI Slop**
@@ -36,6 +36,7 @@
     - 결과적으로 **유지보수가 어려운 코드**가 됨
 
 # 주도권 유지하기
+
 ![[스크린샷 2026-09-19 170506.png]]
 
 - AI가 단독으로도 어느 정도 작동하는 코드를 생성해낼 수 있음
@@ -61,7 +62,7 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
 
 ## **실용적인 바이브 코딩**
 
-	- AI를 배제하기보다는 **실용적인 협업(Practical Collaboration)** 방식을 수용
+- AI를 배제하기보다는 **실용적인 협업(Practical Collaboration)** 방식을 수용
 - AI의 **빠른 속도와 유용한 기능을 활용**하면서도 **우리가 주도권과 통제력을 유지**
 - AI가 생성하는 결과물을 **우리가 직접 제어**
 
@@ -123,7 +124,7 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
 
 # **MCP: 에이전트와 툴체인 연결하기**
 
-![image.png](attachment:6ed09e82-f391-4b87-adba-dea33434caf6:image.png)
+![[스크린샷 2026-09-19 172945.png]]
 
 - 에이전트에게 **더 많은 권한을 부여하고 싶다면 MCP를 활용**할 수 있음
 - MCP(Model Control Protocol)는 **에이전트를 위한 USB-C와 같은 표준 규격**
@@ -153,9 +154,7 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
     - **이를 통해 개발자는 원인 규명 및 수정 작업을 즉시 시작할 수 있게 됨**
 
 # AppFunctions: 앱 기능 노출
-
-![image.png](attachment:67cab041-a2b5-4b1d-8599-083e453ef49f:image.png)
-
+![[스크린샷 2026-09-19 173231.png]]
 [https://developer.android.com/ai/appfunctions](https://developer.android.com/ai/appfunctions)
 
 - MCP가 에이전트를 **외부 도구 및 서비스와 연결**해 주는 역할을 했다면,  
@@ -195,9 +194,9 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
 
 # Agent Skills
 
-![image.png](attachment:b4504ac4-e063-468f-a355-f1241c90fe62:image.png)
+![[스크린샷 2026-09-19 174119.png]]
 
-![image.png](attachment:111935e7-d73f-4c51-acb2-1995f0cf37fe:image.png)
+![[스크린샷 2026-09-19 174455 1.png]]
 
 - **Agent Skills**를 활용하여 에이전트에게 더 많은 기능이나 능력을 부여할 수 있음
 - `Skill`은 **Anthropic이 만든 개방형 표준**
@@ -214,7 +213,7 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
 
 # Agent Skills 활용 사례
 
-![image.png](attachment:61479e90-68b2-4bda-a645-0f8de1bbca89:image.png)
+![[스크린샷 2026-09-19 174719.png]]
 
 새로운 기능을 추가할 때 사용하는 아키텍처는 여러 애플리케이션에서 **비슷한 형태**를 가짐
 
@@ -274,8 +273,7 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
 
 [https://github.com/android/skills](https://github.com/android/skills)
 
-![image.png](attachment:37108a94-7f9a-4004-b504-c5dfb0d0fc74:image.png)
-
+![[스크린샷 2026-09-19 175454.png]]
 - 구글이 미리 제공하는 **Android용 Skills**도 있음
 - 구글이 직접 제작한 Skills를 모아둔 **오픈 소스 저장소**가 있음
 - 구글이 공식적으로 만든 다양한 기능이 포함되어 있으며, 일부는 **Android Studio에 기본적으로 내장**되어 있음
@@ -299,16 +297,16 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
 
 # Rules와 Skills의 차이
 
-![image.png](attachment:a319cb46-929b-448b-91ab-8d6f53d67af4:image.png)
+![[스크린샷 2026-09-19 180101.png]]
 
-|Feature|[AGENTS.md](http://agents.md/) (Rules)|[SKILL.md](http://skill.md/) (Skills)|
-|---|---|---|
-|**적용 범위**|Global (Every prompt)|Task-Specific (On-demand)|
-|**목적**|아키텍쳐 & 가드레일|절차적 워크플로|
-|**컨텍스트 사용량**|모든 세션/턴에 전달|Progressive Disclosure를 통해 필요할 때 로드|
-|**대상 작업**|코드 스타일, 기술 스택, 사용 금지 사항|API 마이그레이션, 코드 감사, 프로젝트 설정|
-|**핵심 역할**|프로젝트에서 항상 지켜야 할 기본 규칙 정의|특정 작업을 수행할 때 따라야 할 **구체적인 절차** 정의|
-|**예시**|Compose 사용, Hilt 사용, Repository 패턴, 특정 라이브러리 사용 금지|API 마이그레이션, Compose 마이그레이션, 코드 감사, 프로젝트 설정|
+| Feature      | [AGENTS.md](http://agents.md/) (Rules)             | [SKILL.md](http://skill.md/) (Skills)      |
+| ------------ | -------------------------------------------------- | ------------------------------------------ |
+| **적용 범위**    | Global (Every prompt)                              | Task-Specific (On-demand)                  |
+| **목적**       | 아키텍쳐 & 가드레일                                        | 절차적 워크플로                                   |
+| **컨텍스트 사용량** | 모든 세션/턴에 전달                                        | Progressive Disclosure를 통해 필요할 때 로드        |
+| **대상 작업**    | 코드 스타일, 기술 스택, 사용 금지 사항                            | API 마이그레이션, 코드 감사, 프로젝트 설정                 |
+| **핵심 역할**    | 프로젝트에서 항상 지켜야 할 기본 규칙 정의                           | 특정 작업을 수행할 때 따라야 할 **구체적인 절차** 정의          |
+| **예시**       | Compose 사용, Hilt 사용, Repository 패턴, 특정 라이브러리 사용 금지 | API 마이그레이션, Compose 마이그레이션, 코드 감사, 프로젝트 설정 |
 
 에이전트가 작업을 수행하는 데 필요한 **최소한의 정보만 항상 기억하도록 하는 것**이 중요함.
 
@@ -356,8 +354,7 @@ You are an expert Android Engineer prioritizing Kotlin, Jetpack Compose, and Mat
 **하나의 세션에 모든 작업을 계속 쌓기보다, 작업 단위로 새로운 세션을 시작하고 필요한 최소한의 컨텍스트만 유지한다.**
 
 # Agent Loops
-
-![image.png](attachment:be36a7f2-da0b-49b1-8b1b-1126b6211c57:image.png)
+![[스크린샷 2026-09-19 183227.png]]
 
 에이전트를 활용하면 상당히 많은 작업을 자동화할 수 있으며, 프로그래밍의 반복문과 유사하게 **사람과 에이전트 간의 상호작용을 중심으로 한 루프**를 사용할 수 있음.
 
@@ -427,8 +424,7 @@ Pull Request 생성
 
 # 적대적 코드 리뷰(Adversarial Code Review)
 
-![image.png](attachment:6d0da995-11e1-4165-b097-1eb6aa663e7e:image.png)
-
+![[스크린샷 2026-09-19 184404.png]]
 - 일반적으로 개발자는 **다른 사람의 확인 없이 작업 내용을 바로 병합하지 않는 것**이 중요함
 - 자동화된 테스트, 정적 분석, CI 등을 활용할 수도 있지만, 팀에서는 항상 **다른 사람이 작업물을 검토**하도록 함
 
@@ -474,8 +470,7 @@ PR Merge
 
 ## 완전 자동화된 코드 리뷰
 
-![image.png](attachment:2a5ea35f-2a12-4897-90b0-955f6e25ac30:image.png)
-
+![[스크린샷 2026-09-19 185110.png]]
 [이탈리아에 사는 제 친구가 만든 이 도구](https://github.com/hamen/pr-review-relay)는 기본적으로 에이전트가 자동으로 열 수 있도록 일련의 지침과 같은 구조를 생성합니다. 이 방식에서도 앞서 설명한 것과 같은 **루프(반복 과정)**가 진행됩니다.
 
 ```
@@ -534,8 +529,7 @@ PR 탭에 리뷰 코멘트 작성
 
 # AI 기능 측정: 안드로이드 벤치마크
 
-![image.png](attachment:83e17692-e843-4eea-89ff-e28d5e15e7b7:image.png)
-
+![[스크린샷 2026-09-19 220902.png]]
 - Google이 **GitHub의 오픈소스 저장소에서 가져온 100가지 작업**을 기반으로 만든 벤치마크
 - Android 개발에 특화된 **AI 에이전트의 개발 역량을 구체적으로 측정**하기 위해 만들어짐
 - 벤치마크 항목과 결과는 **주기적으로 업데이트**되므로 현재 내용은 [링크](https://developer.android.com/bench)에서 직접 확인하는 것이 좋음
