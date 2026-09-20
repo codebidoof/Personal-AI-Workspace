@@ -43,7 +43,7 @@ Personal-AI-Workspace/
     └── LinkU_Android/
 ```
 
-`.obsidian/`(Obsidian 설정)과 `.claudian/`(Claudian 플러그인 설정·세션)은 도구 설정이므로 Git에서 제외한다.
+	`.obsidian/`(Obsidian 설정)과 `.claudian/`(Claudian 플러그인 설정·세션)은 도구 설정이므로 Git에서 제외한다.
 
 ## Skills
 
